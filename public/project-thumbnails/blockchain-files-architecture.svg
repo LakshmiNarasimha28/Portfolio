@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Blockchain Integrated File System Architecture</title>
+  <desc id="desc">A dark architectural diagram showing the flow between a client application, an API service, IPFS storage, and an Ethereum ledger.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="50%" stop-color="#0b1729"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#13233c" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0a1324" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowWarm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <circle cx="260" cy="160" r="180" fill="#38bdf8" filter="url(#glow)"/>
+    <circle cx="1320" cy="720" r="220" fill="#fb7185" filter="url(#glow)"/>
+  </g>
+
+  <g stroke="rgba(255,255,255,0.06)">
+    <path d="M 0 120 H 1600"/>
+    <path d="M 0 260 H 1600"/>
+    <path d="M 0 400 H 1600"/>
+    <path d="M 0 540 H 1600"/>
+    <path d="M 0 680 H 1600"/>
+    <path d="M 0 820 H 1600"/>
+    <path d="M 180 0 V 900"/>
+    <path d="M 420 0 V 900"/>
+    <path d="M 660 0 V 900"/>
+    <path d="M 900 0 V 900"/>
+    <path d="M 1140 0 V 900"/>
+    <path d="M 1380 0 V 900"/>
+  </g>
+
+  <text x="120" y="120" fill="#f8fafc" font-size="56" font-family="Georgia, 'Times New Roman', serif">Blockchain File System</text>
+  <text x="122" y="165" fill="#94a3b8" font-size="24" font-family="'Segoe UI', Arial, sans-serif">Tamper-resistant file tracking with API orchestration, IPFS storage, and Ethereum verification.</text>
+
+  <g>
+    <rect x="120" y="250" width="320" height="180" rx="28" fill="url(#panel)" stroke="rgba(96,165,250,0.45)" stroke-width="2"/>
+    <text x="168" y="315" fill="#7dd3fc" font-size="20" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="4">CLIENT</text>
+    <text x="168" y="368" fill="#f8fafc" font-size="40" font-family="Georgia, 'Times New Roman', serif">React Dashboard</text>
+    <text x="168" y="405" fill="#cbd5e1" font-size="22" font-family="'Segoe UI', Arial, sans-serif">Files, Upload, Transactions</text>
+  </g>
+
+  <g>
+    <rect x="640" y="220" width="360" height="240" rx="32" fill="url(#panel)" stroke="rgba(59,130,246,0.48)" stroke-width="2"/>
+    <text x="690" y="285" fill="#93c5fd" font-size="20" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="4">ORCHESTRATION</text>
+    <text x="690" y="338" fill="#f8fafc" font-size="42" font-family="Georgia, 'Times New Roman', serif">Express API Layer</text>
+    <text x="690" y="378" fill="#cbd5e1" font-size="22" font-family="'Segoe UI', Arial, sans-serif">Upload routes, versioning, metadata</text>
+    <text x="690" y="418" fill="#94a3b8" font-size="20" font-family="'Segoe UI', Arial, sans-serif">Bridges file writes to IPFS and integrity records to chain storage.</text>
+  </g>
+
+  <g>
+    <rect x="1120" y="210" width="340" height="190" rx="28" fill="url(#panel)" stroke="rgba(251,113,133,0.42)" stroke-width="2"/>
+    <text x="1170" y="275" fill="#fda4af" font-size="20" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="4">LEDGER</text>
+    <text x="1170" y="328" fill="#f8fafc" font-size="40" font-family="Georgia, 'Times New Roman', serif">Ethereum Contract</text>
+    <text x="1170" y="366" fill="#cbd5e1" font-size="22" font-family="'Segoe UI', Arial, sans-serif">Hashes, timestamps, user traceability</text>
+  </g>
+
+  <g>
+    <rect x="1110" y="520" width="350" height="200" rx="30" fill="url(#panel)" stroke="rgba(56,189,248,0.4)" stroke-width="2"/>
+    <text x="1160" y="585" fill="#67e8f9" font-size="20" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="4">STORAGE</text>
+    <text x="1160" y="638" fill="#f8fafc" font-size="42" font-family="Georgia, 'Times New Roman', serif">IPFS Content Layer</text>
+    <text x="1160" y="678" fill="#cbd5e1" font-size="22" font-family="'Segoe UI', Arial, sans-serif">Distributed file payloads and retrieval</text>
+  </g>
+
+  <g>
+    <rect x="640" y="560" width="360" height="150" rx="30" fill="url(#panel)" stroke="rgba(248,250,252,0.18)" stroke-width="2"/>
+    <text x="690" y="618" fill="#e2e8f0" font-size="20" font-family="'Segoe UI', Arial, sans-serif" letter-spacing="4">OUTCOME</text>
+    <text x="690" y="668" fill="#f8fafc" font-size="40" font-family="Georgia, 'Times New Roman', serif">Auditable File History</text>
+  </g>
+
+  <path d="M 440 340 C 520 340, 560 340, 640 340" fill="none" stroke="url(#lineA)" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <path d="M 1000 320 C 1060 320, 1080 320, 1120 320" fill="none" stroke="url(#lineB)" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowWarm)"/>
+  <path d="M 1000 390 C 1100 430, 1140 500, 1180 520" fill="none" stroke="url(#lineA)" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <path d="M 1285 400 C 1285 455, 1285 470, 1285 520" fill="none" stroke="url(#lineB)" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowWarm)"/>
+  <path d="M 1110 640 C 1070 640, 1040 640, 1000 640" fill="none" stroke="url(#lineA)" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+
+  <g fill="#e2e8f0" font-size="18" font-family="'Segoe UI', Arial, sans-serif">
+    <text x="500" y="320">upload + query</text>
+    <text x="1050" y="295">hash commit</text>
+    <text x="1045" y="485">payload pinning</text>
+    <text x="1155" y="470">verification</text>
+    <text x="1035" y="620">version trail</text>
+  </g>
+
+  <g>
+    <rect x="120" y="660" width="350" height="120" rx="24" fill="rgba(8,15,28,0.78)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="160" y="710" fill="#f8fafc" font-size="24" font-family="'Segoe UI', Arial, sans-serif">Capture note</text>
+    <text x="160" y="748" fill="#94a3b8" font-size="20" font-family="'Segoe UI', Arial, sans-serif">Repo frontend config is incomplete, so this uses the verified architecture</text>
+    <text x="160" y="776" fill="#94a3b8" font-size="20" font-family="'Segoe UI', Arial, sans-serif">from the committed code paths instead of a live UI screenshot.</text>
+  </g>
+</svg>
