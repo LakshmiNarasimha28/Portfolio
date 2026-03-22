@@ -86,29 +86,29 @@ export const certs = [
   {
     name: "Automation Anywhere - Essentials Automation Professional",
     issuer: "Automation Anywhere",
-    link: "https://upskill.automationanywhere.com/essentials-automation-certification-2024",
-    linkLabel: "Certificate Path",
+    link: "https://certificates.automationanywhere.com/1e85e4e5-23fc-4846-be6a-4768673483ba#acc.GsEcZAXz",
+    linkLabel: "Certificate",
     date: "Nov '2025"
   },
   {
     name: "The Bits and Bytes of Computer Networking",
     issuer: "Google via Coursera",
-    link: "https://www.coursera.org/learn/computer-networking",
-    linkLabel: "Course",
+    link: "https://coursera.org/verify/X3Z3W1CP15DW",
+    linkLabel: "Certificate",
     date: "Sep '2024"
   },
   {
     name: "Data Analytics with Python",
     issuer: "IBM via Coursera",
-    link: "https://www.coursera.org/learn/data-analysis-with-python",
-    linkLabel: "Course",
+    link: "https://coursera.org/verify/BFXSERMSJD8D",
+    linkLabel: "Certificate",
     date: "Mar '2024"
   },
   {
     name: "The Complete Python Bootcamp",
     issuer: "Udemy",
-    link: "https://www.udemy.com/course/complete-python-bootcamp/",
-    linkLabel: "Course",
+    link: "https://www.udemy.com/certificate/UC-283f3c90-b03d-4465-b04e-0540433a2fe7/",
+    linkLabel: "Certificate",
     date: "Feb '2024"
   }
 ];
