@@ -21,7 +21,6 @@ export const profile = {
   github: "https://github.com/LakshmiNarasimha28",
   linkedin: "https://linkedin.com/in/lakshminarasimha28",
   resumePath: "/resume.pdf",
-  cgpa: "8.62 / 10",
   university: "Lovely Professional University",
   degree: "B.Tech in Computer Science (Artificial Intelligence & Machine Learning)",
   educationPeriod: "Aug '2023 - Present",
