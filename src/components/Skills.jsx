@@ -38,6 +38,11 @@ const enhancedSkills = [
     items: ['Scikit-learn', 'TensorFlow', 'Keras', 'XGBoost', 'Random Forest', 'SVM', 'MobileNetV2', 'SMOTE']
   },
   {
+    category: 'Soft Skills',
+    icon: FaServer,
+    items: ['Teamwork', 'Analytical Thinking', 'Adaptability', 'Learning Agility']
+  },
+  {
     category: 'Data & Analytics',
     icon: BarChart2,
     items: ['Pandas', 'NumPy', 'EDA', 'Feature Engineering', 'Data Visualization', 'SQL Analysis', 'Streamlit']
