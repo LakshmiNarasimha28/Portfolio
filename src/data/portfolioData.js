@@ -5,7 +5,7 @@ export const profile = {
   role: "AI/ML Engineer • Full Stack Developer",
   headline: "Designing machine learning pipelines and data-driven applications.",
   description: [
-    "B.Tech Computer Science student at Lovely Professional University, specializing in Artificial Intelligence and Machine Learning, with a CGPA of 8.62.",
+    "B.Tech Computer Science student at Lovely Professional University, specializing in Artificial Intelligence and Machine Learning.",
     "My projects focus on end-to-end ML systems, from data collection and preprocessing to model evaluation and deployment-ready interfaces.",
     "I enjoy combining strong engineering practices with applied data science to deliver measurable improvements, such as higher detection quality and robust multi-class recognition.",
   ],
